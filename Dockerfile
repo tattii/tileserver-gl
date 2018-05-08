@@ -21,6 +21,7 @@ RUN apt-get -qq update \
     libprotobuf-dev \
     libxxf86vm-dev \
     xvfb \
+    cmake \
 && apt-get clean
 
 RUN mkdir -p /usr/src/app
